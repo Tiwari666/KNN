@@ -128,3 +128,6 @@ Link1: https://towardsdatascience.com/types-of-machine-learning-algorithms-you-s
 Link2: https://www.ibm.com/blog/supervised-vs-unsupervised-learning/
 
 Link3: https://www.analyticsvidhya.com/blog/2021/01/a-quick-introduction-to-k-nearest-neighbor-knn-classification-using-python
+
+Link4: https://www.digitalocean.com/community/tutorials/k-nearest-neighbors-knn-in-python
+
