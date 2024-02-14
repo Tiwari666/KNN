@@ -106,16 +106,23 @@ It plots the data into the axes to classify a group based on the k-nearest neigh
 
 
 
-# Different steps of K-NN for classifying a new data point:
+# Different steps of KNN for classifying a new data point:
 
-Step 1: Select the value of K neighbors(say k=4)
+Step 1: Importing the modules
 
-Step 2: Find the K (4) nearest data point for our new data point based on euclidean distance, Manhattan distance.
+Step 2: Importing Dataset
 
-Step 3: Among these K data points count the data points in each category
+Step 3:  Visualize the Dataset
 
-Step 4: Assign the new data point to the category that has the most neighbors of the new datapoint.
+Step 4: Splitting Data into Training and Testing Datasets
 
+step 5: 5. KNN Classifier Implementation
+
+step 6: Predictions for the KNN Classifiers
+
+step 7: Predict Accuracy for all k values
+
+step 8: Visualize Predictions
 
 
 # Note on KNN: 
