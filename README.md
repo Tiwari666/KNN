@@ -102,7 +102,7 @@ It depends on how many neighbors you want to assign for a new data. Based on it,
 It plots the data into the axes to classify a group based on the k-nearest neighbor idea.
 
 
-
+KNN classifier identifies the class of a data point using the majority voting principle. If K is set to 4, the classes of 4 nearest points are examined. Prediction is done according to the predominant class. Similarly, kNN regression takes the mean value of 5 nearest locations.
 
 
 
