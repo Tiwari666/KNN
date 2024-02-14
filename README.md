@@ -114,3 +114,5 @@ Step 4: Assign the new data point to the category that has the most neighbors of
 Link1: https://towardsdatascience.com/types-of-machine-learning-algorithms-you-should-know-953a08248861
 
 Link2: https://www.ibm.com/blog/supervised-vs-unsupervised-learning/
+
+Link3: https://www.analyticsvidhya.com/blog/2021/01/a-quick-introduction-to-k-nearest-neighbor-knn-classification-using-python
