@@ -1,5 +1,17 @@
 # KNN
 
+An algorithm is a procedure used for solving a problem or performing a computation.
+
+An algorithm is a set of commands that must be followed for a computer to perform calculations or other problem-solving operations.
+
+There are three types of machine learning algorithms: supervised,  unsupervised and reinforcement.
+
+
+![image](https://github.com/Tiwari666/KNN/assets/153152895/43ddb527-fa12-49cc-855c-3e8b03139dfb)
+
+
+KNN (k-Nearest Neighbors) is a supervised machine learning algorithm. In supervised learning, the algorithm learns from labeled training data, where each data point is associated with a known label or outcome. KNN specifically requires labeled training data to classify new data points based on their similarity to existing data points with known class labels. Therefore, it falls under the category of supervised learning algorithms.
+
 KNN is a supervised learning classifier, which uses proximity/Eucledian distance to make classifications or predictions about the
 grouping of an individual data point.
 K in KNN is the number of nearest neighbors (based on the chosen distance metric).
