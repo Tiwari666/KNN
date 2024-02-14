@@ -121,6 +121,23 @@ Step 4: Assign the new data point to the category that has the most neighbors of
 # Note on KNN: 
 
 The KNN algorithm is also part of a family of “lazy learning” models, meaning that it only stores a training dataset versus undergoing a training stage. This also means that all the computation occurs when a classification or prediction is being made. Since it heavily relies on memory to store all its training data, it is also referred to as an instance-based or memory-based learning method.
+
+# How to find the best k value to implement KNN:
+
+k=1: The model is too narrow and not properly generalized. It also has a high sensitivity to noise. The model predicts new, previously unknown data points with a high degree of accuracy on a train set, but it is a poor predictor on fresh, previously unseen data points. As a result, we’re likely to have an overfit model.
+
+k=100: The model is overly broad and unreliable on both the train and test sets. Underfitting is the term for this circumstance.
+
+# Limitations of KNN Algorithm:
+
+KNN is a straightforward algorithm to grasp. It does not rely on any internal machine learning model to generate predictions. KNN is a classification method that simply needs to know how many categories there are to work (one or more). This means it can quickly assess whether or not a new category should be added without having to know how many others there are.
+
+The drawback of this simplicity is that it can’t anticipate unusual things (like new diseases), which KNN can’t accomplish since it doesn’t know what the prevalence of a rare item would be in a healthy population.
+
+Although KNN achieves high accuracy on the testing set, it is slower and more expensive in terms of time and memory. It needs a considerable amount of memory in order to store the whole training dataset for prediction. Furthermore, because Euclidean distance is very sensitive to magnitudes, characteristics in the dataset with large magnitudes will always outweigh those with small magnitudes.
+
+Finally, based on the discussed so far, we should keep in mind that KNN isn’t ideal for large-dimensional datasets.
+
 ###############################################################################
 # Sources: Various Online documents
 Link1: https://towardsdatascience.com/types-of-machine-learning-algorithms-you-should-know-953a08248861
