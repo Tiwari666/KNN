@@ -18,7 +18,7 @@ There are four types of machine learning algorithms: supervised,  unsupervised, 
 
 The main distinction between the supervised and unsupervised algorithms is the use of labeled datasets. To put it simply, supervised learning uses labeled input and output data, while an unsupervised learning algorithm does not.
 
-# Supervised (abels are present for all the observations) vs. unsupervised learning ( no labels are present for all the observation in the dataset)
+# Supervised (labels are present for all the observations) vs. unsupervised learning ( no labels are present for all the observation in the dataset)
 
 In supervised learning, the algorithm “learns” from the training dataset by iteratively making predictions on the data and adjusting for the correct answer. While supervised learning models tend to be more accurate than unsupervised learning models, they require upfront human intervention to label the data appropriately. For example, a supervised learning model can predict how long your commute will be based on the time of day, weather conditions and so on. But first, one needs to train the model to know whether the rainy weather extends the driving time.
 
@@ -42,7 +42,7 @@ B) Association is another type of unsupervised learning method that uses differe
 C) Dimensionality reduction is a learning technique used when the number of features  (or dimensions) in a given dataset is too high. It reduces the number of data inputs to a manageable size while also preserving the data integrity. Often, this technique is used in the preprocessing data stage, such as when autoencoders remove noise from visual data to improve picture quality.
 
 
-# Semi-supervised learning (: The best of both worlds
+# Semi-supervised learning (: The best of both worlds)
 
 If we cannot decide on whether to use supervised or unsupervised learning algorithms, a Semi-supervised learning is a happy way to go, where we use a training dataset with both labeled and unlabeled data. It’s particularly useful when it’s difficult to extract relevant features from data — and when we have a high volume of data.
 
