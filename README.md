@@ -4,10 +4,17 @@ An algorithm is a procedure used for solving a problem or performing a computati
 
 An algorithm is a set of commands that must be followed for a computer to perform calculations or other problem-solving operations.
 
-There are three types of machine learning algorithms: supervised,  unsupervised and reinforcement.
+There are four types of machine learning algorithms: supervised,  unsupervised, Semi-supervised and reinforcement.
 
 
 ![image](https://github.com/Tiwari666/KNN/assets/153152895/43ddb527-fa12-49cc-855c-3e8b03139dfb)
+
+
+
+
+
+![image](https://github.com/Tiwari666/KNN/assets/153152895/fcd3f086-b7ea-4443-89c6-63087a9007e5)
+
 
 
 KNN (k-Nearest Neighbors) is a supervised machine learning algorithm. In supervised learning, the algorithm learns from labeled training data, where each data point is associated with a known label or outcome. KNN specifically requires labeled training data to classify new data points based on their similarity to existing data points with known class labels. Therefore, it falls under the category of supervised learning algorithms.
