@@ -18,15 +18,15 @@ There are four types of machine learning algorithms: supervised,  unsupervised, 
 
 The main distinction between the supervised and unsupervised algorithms is the use of labeled datasets. To put it simply, supervised learning uses labeled input and output data, while an unsupervised learning algorithm does not.
 
-# Supervised (labels are present for all the observations) vs. unsupervised learning ( no labels are present for all the observation in the dataset)
+# Supervised learning:
 
-In supervised learning, the algorithm “learns” from the training dataset by iteratively making predictions on the data and adjusting for the correct answer. While supervised learning models tend to be more accurate than unsupervised learning models, they require upfront human intervention to label the data appropriately. For example, a supervised learning model can predict how long your commute will be based on the time of day, weather conditions and so on. But first, one needs to train the model to know whether the rainy weather extends the driving time.
+Supervised learning is a machine learning approach that’s defined by its use of labeled datasets. These datasets are designed to train or “supervise” algorithms into classifying data or predicting outcomes accurately. Using labeled inputs and outputs, the model can measure its accuracy and learn over time.
 
-Unsupervised learning models, in contrast, work on their own to discover the inherent structure of unlabeled data. Note that they still require some human intervention for validating output variables. For example, an unsupervised learning model can identify that online shoppers often purchase groups of products at the same time. However, a data scientist must validate it to makes sense for a recommendation engine for grouping
- baby clothes with an order of diapers, applesauce and sippy cups.
+Supervised learning can be separated into two types of problems when data mining: classification and regression:
 
+Classification problems use an algorithm to accurately assign test data into specific categories, such as separating apples from oranges. Or, in the real world, supervised learning algorithms can be used to classify spam in a separate folder from your inbox. Linear classifiers, support vector machines, decision trees and random forest are all common types of classification algorithms.
 
- 
+Regression is another type of supervised learning method that uses an algorithm to understand the relationship between dependent and independent variables. Regression models are helpful for predicting numerical values based on different data points, such as sales revenue projections for a given business. Some popular regression algorithms are linear regression, logistic regression and polynomial regression.
 
 
 # Unsupervised learning
@@ -40,6 +40,14 @@ A) Clustering is a data mining technique for grouping unlabeled data based on th
 B) Association is another type of unsupervised learning method that uses different rules to find relationships between variables in a given dataset. These methods are frequently used for market basket analysis and recommendation engines, along the lines of “Customers Who Bought This Item Also Bought” recommendations.
 
 C) Dimensionality reduction is a learning technique used when the number of features  (or dimensions) in a given dataset is too high. It reduces the number of data inputs to a manageable size while also preserving the data integrity. Often, this technique is used in the preprocessing data stage, such as when autoencoders remove noise from visual data to improve picture quality.
+
+
+# Supervised (labels are present for all the observations) vs. unsupervised learning ( no labels are present for all the observation in the dataset)
+
+In supervised learning, the algorithm “learns” from the training dataset by iteratively making predictions on the data and adjusting for the correct answer. While supervised learning models tend to be more accurate than unsupervised learning models, they require upfront human intervention to label the data appropriately. For example, a supervised learning model can predict how long your commute will be based on the time of day, weather conditions and so on. But first, one needs to train the model to know whether the rainy weather extends the driving time.
+
+Unsupervised learning models, in contrast, work on their own to discover the inherent structure of unlabeled data. Note that they still require some human intervention for validating output variables. For example, an unsupervised learning model can identify that online shoppers often purchase groups of products at the same time. However, a data scientist must validate it to makes sense for a recommendation engine for grouping
+ baby clothes with an order of diapers, applesauce and sippy cups.
 
 
 # Semi-supervised learning (: The best of both worlds)
@@ -76,7 +84,8 @@ Video gameplay: Teaches bots to play video games.
 
 Resource management: Helps enterprises plan allocation of resources.
 
-# KNN
+# KNN : the goal of the k-nearest neighbor algorithm is to identify the nearest neighbors of a given query point, so that we can assign a class label to that point. 
+
 KNN (k-Nearest Neighbors) is a supervised machine learning algorithm. In supervised learning, the algorithm learns from labeled training data, where each data point is associated with a known label or outcome. KNN specifically requires labeled training data to classify new data points based on their similarity to existing data points with known class labels. Therefore, it falls under the category of supervised learning algorithms.
 
 KNN is a supervised learning classifier, which uses proximity/Eucledian distance to make classifications or predictions about the
@@ -109,6 +118,9 @@ Step 4: Assign the new data point to the category that has the most neighbors of
 
 
 
+# Note on KNN: 
+
+The KNN algorithm is also part of a family of “lazy learning” models, meaning that it only stores a training dataset versus undergoing a training stage. This also means that all the computation occurs when a classification or prediction is being made. Since it heavily relies on memory to store all its training data, it is also referred to as an instance-based or memory-based learning method.
 ###############################################################################
 # Sources: Various Online documents
 Link1: https://towardsdatascience.com/types-of-machine-learning-algorithms-you-should-know-953a08248861
